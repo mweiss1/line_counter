@@ -1,0 +1,5 @@
+
+all: minishell 
+
+minishell: miniShell.c
+	gcc -o msh miniShell.c -lreadline
